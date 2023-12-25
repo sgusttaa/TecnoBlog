@@ -1,0 +1,129 @@
+/* Limpar Formatações padrão */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/* 
+Layout 
+*/
+
+#area-cabecalho{
+    background-color: #ffdb11ea;
+    padding: 12px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagem{
+    width: 700px;
+    float: left;
+}
+
+.postagem{
+    margin-bottom: 20px;
+    padding: 25px;
+    background: #fff;
+}
+
+.conteudo-lateral{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#area-lateral{
+    width: 270px;
+    float: right;
+    
+}
+
+#rodape{
+    background: #757272;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* 
+Formatação de Menu
+*/
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+}
+a:link, a:visited{
+    color: #e6a903;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,#area-cabecalho a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+    background: #fff;
+    color: #ffdb11ea;
+    text-decoration: none;
+}
+
+/* 
+Formatações Gerais
+*/
+h1{
+    color: #383636;
+    font-size: 2.4em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    background: #757272;
+    color: #fff;
+    padding: 9px;
+}
+
+.postagem-lateral p, .postagem-lateral, a{
+    font-size: 0.95em;
+    padding: 5px;
+}
+
+.conteudo-lateral h3{
+    margin-bottom: 10px;
+}
+
+.branco{
+    color: #ffffff;
+}
+
+.post{
+    font-size: 0.9em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
